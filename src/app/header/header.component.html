@@ -1,0 +1,13 @@
+<div class="float-right mb-3 position-relative">
+    
+    <div class=" account-label-btn px-5 py-3 cursor-pointer" (click)="toggleOptions()">Hi {{user.name}}</div>
+    
+    <div class="options mt-1" *ngIf="showOptions">
+        <div class="option">My Profile</div>
+        <div class="option">Logout</div>
+    </div>
+</div>
+<img src="https://cdn.pixabay.com/photo/2017/03/17/04/07/beautiful-2150881_1280.jpg" class="rounded-circle profile-picture float-right mr-3 mt-1" alt="">
+<h2 class="float-left mt-2">Admin Panel</h2>
+<div class="clear"></div>
+<div class="w-100 " class="thick-line"></div>

@@ -1,0 +1,21 @@
+.submit-btn{
+    border: 1px solid #556BE7;
+    border-radius: 16px;
+}
+
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #C1C1C1;
+  }
+  
+  .svg-icon circle {
+    stroke: #C1C1C1;
+    stroke-width: 1;
+  }

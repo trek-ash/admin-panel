@@ -1,0 +1,23 @@
+<h5 class="float-left mt-4 mr-3">Sort by:</h5>
+
+<div class="sort-filter mt-4 float-left position-relative">
+    <span class="badge p-2 ml-2 cursor-pointer" (click)="d1.toggle()">Date</span>
+    <span class="position-absolute" style="left: 5px; bottom: 0px;">
+
+        <input hidden [(ngModel)]="selectedDate"  type='text' ngbDatepicker #d1="ngbDatepicker" (dateSelect)="onDateSelect($event)">
+    </span>
+    <div class="d-inline position-relative">
+
+        <span class="badge p-2 ml-2 cursor-pointer" (click)="toggleShowLocation()">Location</span>
+        <div class="location-search-box p-2" *ngIf="showLocation">
+            <b>Type your city name</b>
+            <input type="text" class="form-control my-2" [(ngModel)]="selectedLocation">
+            <b>Popular Cities</b><br/><br/>
+            <div *ngFor="let city of topCities">
+                {{city}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clear"></div>

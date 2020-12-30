@@ -1,0 +1,27 @@
+.thick-line{
+    height: 11px;
+    background: #EAEAEA;
+}
+.profile-picture{
+    width: 48px;
+    height: 48px;
+    display: inline;
+}
+.account-label-btn{
+    background: #556BE7 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+.options{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #556BE7;
+    border-radius: 9px;
+    padding: 12px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.options .option{
+    line-height: 30px;
+    
+}

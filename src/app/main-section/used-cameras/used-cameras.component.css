@@ -1,0 +1,13 @@
+.sort-filter .badge{
+    background-color: #556BE7;
+    color: #ffffff;
+    font-weight: normal;
+}
+.accept-all-btn{
+    background: #1DE21D 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    line-height: 48px;
+    height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}

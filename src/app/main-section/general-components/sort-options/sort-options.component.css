@@ -1,0 +1,15 @@
+.sort-filter .badge{
+    background-color: #556BE7;
+    color: #ffffff;
+    font-weight: normal;
+}
+.location-search-box{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    min-width: 190px;
+    left: 5px;
+    top: 26px;
+}

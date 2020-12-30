@@ -1,0 +1,18 @@
+.options-panel{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D6D6D6;
+    border-radius: 15px;
+}
+
+.options-panel .option-selected{
+    background: #556BE7 0% 0% no-repeat padding-box;
+    color: #FFFFFF!important;
+}
+.options-panel .option:not(:last-child){
+    border-bottom: 1px solid #D6D6D6;
+}
+.options-panel .option{
+
+    color: #000000;
+    line-height: 60px;
+}
