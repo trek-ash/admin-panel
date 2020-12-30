@@ -11,6 +11,8 @@
     background: #556BE7 0% 0% no-repeat padding-box;
     border-radius: 12px;
     color: #FFFFFF;
+    width: 200px;
+    text-align: center ;
 }
 .options{
     background: #FFFFFF 0% 0% no-repeat padding-box;

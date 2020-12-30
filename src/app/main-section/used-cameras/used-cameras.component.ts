@@ -15,8 +15,10 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+    },
     ownerName: "Another User",
     someId: "PS2020BGLR001",
     model: "Nikon D705",
@@ -31,8 +33,10 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+    },
     ownerName: "Siddaya Swami",
     someId: "PS2020BGLR001",
     model: "Nikon D705",
@@ -47,8 +51,10 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+    },
     ownerName: "Another User",
     someId: "PS2020BGLR001",
     model: "Nikon D705",
@@ -63,8 +69,10 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+    },
     ownerName: "Siddaya Swami",
     someId: "PS2020BGLR001",
     model: "Nikon D705",
@@ -79,8 +87,11 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+
+    },
     ownerName: "Another User",
     someId: "PS2020BGLR001",
     model: "Nikon D705",
@@ -95,8 +106,11 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+
+    },
     ownerName: "Siddaya Swami",
     someId: "PS2020BGLR001",
     model: "Nikon D705",
@@ -111,8 +125,10 @@ export class UsedCamerasComponent implements OnInit {
           url: "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
       }]
     },
-    paymentPending: false,
-    paymentInfo: {},
+    paymentPending: true,
+    paymentInfo: {
+      cost: 4999
+    },
     ownerName: "Another User",
     someId: "PS2020BGLR001",
     model: "Nikon D705",

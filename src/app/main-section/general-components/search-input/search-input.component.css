@@ -1,6 +1,10 @@
 .input-group-text{
     background: transparent;
 }
+.input-group{
+  width: 330px;
+
+}
 .custom-shadow{
     box-shadow: 0px 0px 6px #00000029;
 
