@@ -2,6 +2,8 @@
 
 Basic Angular project as Admin panel.
 
+#### Demo link: https://trek-ash.github.io/admin-panel/
+
 ## Install Dependencies
 
 Run `npm install` to install all the dependencies of project.
