@@ -12,7 +12,9 @@
     border-radius: 12px;
     color: #FFFFFF;
     width: 200px;
-    text-align: center ;
+    text-align: center;
+    line-height: 48px ;
+    height: 48px;
 }
 .options{
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -26,4 +28,7 @@
 .options .option{
     line-height: 30px;
     
+}
+h2{
+    font-size: 34px;
 }

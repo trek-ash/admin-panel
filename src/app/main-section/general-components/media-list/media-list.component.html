@@ -1,8 +1,8 @@
 
 <div *ngFor="let item of mediaCollection | paginate: { id: 'media-paginate',itemsPerPage: itemsPerPage, currentPage: currentPage }">  
-    <app-media-detail [mediaDetails] = "item"></app-media-detail>
+    <app-media-detail [mediaDetails] = "item"  [mediaType]="mediaType"></app-media-detail>
 </div>
-<div class="mx-auto d-table">
+<div class="mx-auto d-table mt-5">
     <pagination-template id="media-paginate" #p="paginationApi"
                         (pageChange)="pageChange.emit($event)">
     
@@ -14,7 +14,7 @@
         </div>
 
         <div *ngFor="let page of p.pages" class="page-lists " [class.current]="p.getCurrent() === page.value">
-            <a (click)="p.setCurrent(page.value)" *ngIf="p.getCurrent() !== page.value" class="cursor-pointer">
+            <a style="color: #000000;" (click)="p.setCurrent(page.value)" *ngIf="p.getCurrent() !== page.value" class="cursor-pointer">
                 <span>{{ page.label }}</span>
             </a>
             <div *ngIf="p.getCurrent() === page.value" class="page-selected ">

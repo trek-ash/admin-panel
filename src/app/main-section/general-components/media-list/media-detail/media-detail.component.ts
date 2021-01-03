@@ -9,6 +9,7 @@ import { StatusUpdateComponent } from 'src/app/main-section/modals/status-update
 })
 export class MediaDetailComponent implements OnInit {
   @Input('mediaDetails') mediaDetails;
+  @Input('mediaType') mediaType;
   constructor(private modalService: NgbModal) { }
 
   ngOnInit(): void {

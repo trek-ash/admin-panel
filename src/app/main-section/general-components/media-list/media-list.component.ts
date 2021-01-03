@@ -9,6 +9,7 @@ export class MediaListComponent implements OnInit {
   currentPage: number = 1;
   itemsPerPage: number = 5;
   @Input("mediaCollection") mediaCollection: any[];
+  @Input("mediaType") mediaType;
   pageChange: EventEmitter<String> = new EventEmitter();
   constructor() { 
     this.pageChange.subscribe(res=>{
